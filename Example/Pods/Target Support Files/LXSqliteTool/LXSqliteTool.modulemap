@@ -1,0 +1,6 @@
+framework module LXSqliteTool {
+  umbrella header "LXSqliteTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

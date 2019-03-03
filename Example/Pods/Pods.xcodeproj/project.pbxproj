@@ -1,0 +1,775 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17AADCE5B7F144347EBF17A051B5B73E /* LXSqliteTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4AF97C5520B9E6748387B993E9FBA4 /* LXSqliteTool.m */; };
+		39878124ED8AC8FA4FB23E0BABE75526 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5524A50924C8E57D08D3C000A20F43A2 /* LXSqliteModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E6AD11108573EDB3B78CD6ED2EB1068 /* LXSqliteModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5980FD2DB0267545016EBDD38772BBF8 /* LXSqliteTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B9596B8DCC24FB4A3B978D4235A8C9D /* LXSqliteTable.m */; };
+		8488ED847FADD57D6128642DBFAA20BE /* LXSqliteTool-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA960CEB25EE79AF0ADAC3CF15B04575 /* LXSqliteTool-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ED865924C9B64DAFDD50A5102B724D8 /* LXSqliteTool.h in Headers */ = {isa = PBXBuildFile; fileRef = E0132F52AEBC65990217BEC01D8C2F22 /* LXSqliteTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A170A3901E3D6F1043F8472169E8632B /* Pods-LXSqliteTool_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8059D94D4163BC559D0810EFA00C6E5 /* Pods-LXSqliteTool_Tests-dummy.m */; };
+		ACEB5A12D62498011E624C960F8AD5B7 /* Pods-LXSqliteTool_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 09313F30E76CBCC3EA78E293D45083CB /* Pods-LXSqliteTool_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD9C707B660D9404A01509EF818C63D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		B66BD35E99E58C3CE7684295CECF4E57 /* LXSqliteModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E90363CC66FE1CE3D1D1263E1BAE9583 /* LXSqliteModel.m */; };
+		C70F90261233262F3D7E95A88B6FB08E /* Pods-LXSqliteTool_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CEF5414B64356BA9170A2BB9B1674050 /* Pods-LXSqliteTool_Example-dummy.m */; };
+		C82926C344EA772100AA397DB8737315 /* Pods-LXSqliteTool_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49BE68B06BF8C7EDFD207D5CF43AC7E4 /* Pods-LXSqliteTool_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D1750B1A322BCB71CB7BF1D9F105479A /* LXSqliteTool-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E5681E86DEE74230283840885C84FA /* LXSqliteTool-dummy.m */; };
+		D2D6F637E4B31313E4703475E62342FC /* LXSqliteTable.h in Headers */ = {isa = PBXBuildFile; fileRef = B85436505B558496C3CC682FA0B21294 /* LXSqliteTable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3514625E66A4AD40AB638A72CE783BC /* LXSqliteModelTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 77AE995EDAF3FC37CE48D262E83F81F1 /* LXSqliteModelTool.m */; };
+		D78C4FA012F959E96053BA5C253B5A47 /* LXSqliteModelTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C34308EC27608F5E2CA54D9B15A6013 /* LXSqliteModelTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE8EE9CF5130CFC40047C622CDB838B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FBC3C823E7E864B0BF46E21F506A28CF /* LXSqliteModelProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = AE376F67346421901C13025A100C5825 /* LXSqliteModelProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E6F30E14CC31D3E8FC2DC249B4FA816 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D19C65CE64315F78E0D9225AFDA8548B;
+			remoteInfo = "Pods-LXSqliteTool_Example";
+		};
+		CBFD9EC2FCA64AF52B5BA40EA55E343F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 785019C1631E3B560F2C50FCED797FEA;
+			remoteInfo = LXSqliteTool;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0404419941A0956CED4ED9B9FD1BC6EF /* Pods-LXSqliteTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSqliteTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		09313F30E76CBCC3EA78E293D45083CB /* Pods-LXSqliteTool_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXSqliteTool_Example-umbrella.h"; sourceTree = "<group>"; };
+		1B5057979D0CA7C013A84B2F78978338 /* LXSqliteTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = LXSqliteTool.framework; path = LXSqliteTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B9596B8DCC24FB4A3B978D4235A8C9D /* LXSqliteTable.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXSqliteTable.m; path = LXSqliteTool/Classes/LXSqliteTable.m; sourceTree = "<group>"; };
+		2E6AD11108573EDB3B78CD6ED2EB1068 /* LXSqliteModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXSqliteModel.h; path = LXSqliteTool/Classes/LXSqliteModel.h; sourceTree = "<group>"; };
+		2F5EB0E725D0B069E3E77FE13AA17E94 /* Pods-LXSqliteTool_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXSqliteTool_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		334C3A0F82FF2E557BA5F63B5F8E0C61 /* LXSqliteTool.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = LXSqliteTool.modulemap; sourceTree = "<group>"; };
+		48B480A49243A1CB62D60F6AF42D5994 /* Pods-LXSqliteTool_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXSqliteTool_Example.modulemap"; sourceTree = "<group>"; };
+		49BE68B06BF8C7EDFD207D5CF43AC7E4 /* Pods-LXSqliteTool_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LXSqliteTool_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4C34308EC27608F5E2CA54D9B15A6013 /* LXSqliteModelTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXSqliteModelTool.h; path = LXSqliteTool/Classes/LXSqliteModelTool.h; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6029BC3797C283C6BDA3C0C3729A6E69 /* Pods-LXSqliteTool_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSqliteTool_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6C4AF97C5520B9E6748387B993E9FBA4 /* LXSqliteTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXSqliteTool.m; path = LXSqliteTool/Classes/LXSqliteTool.m; sourceTree = "<group>"; };
+		77AE995EDAF3FC37CE48D262E83F81F1 /* LXSqliteModelTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXSqliteModelTool.m; path = LXSqliteTool/Classes/LXSqliteModelTool.m; sourceTree = "<group>"; };
+		7B9CC21D65040ECFF04239DC9B38FE9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D65CCB797EA1EC97C85549C05A657DF /* Pods-LXSqliteTool_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXSqliteTool_Example-resources.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		96E839A9C799B0EE63172D09E21EC39D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ABBBF6F82BB9018255D768032CF5A42 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9AE77CA93D74DCE12009199D5593BAB2 /* Pods_LXSqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXSqliteTool_Tests.framework; path = "Pods-LXSqliteTool_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2F7F3D754FE0575313770273F98FFCD /* Pods-LXSqliteTool_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXSqliteTool_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A830B7CDB1D7B431ACB22C86162E1FD2 /* Pods-LXSqliteTool_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXSqliteTool_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A90A9191EC5A476418DB83C68F181470 /* LXSqliteTool-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSqliteTool-prefix.pch"; sourceTree = "<group>"; };
+		AE376F67346421901C13025A100C5825 /* LXSqliteModelProtocol.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXSqliteModelProtocol.h; path = LXSqliteTool/Classes/LXSqliteModelProtocol.h; sourceTree = "<group>"; };
+		B48D429D772E7850C10FFF72C19E5101 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B72EFE9576DB61D53D8E4F2E4E9E1092 /* Pods-LXSqliteTool_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LXSqliteTool_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B8059D94D4163BC559D0810EFA00C6E5 /* Pods-LXSqliteTool_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXSqliteTool_Tests-dummy.m"; sourceTree = "<group>"; };
+		B85436505B558496C3CC682FA0B21294 /* LXSqliteTable.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXSqliteTable.h; path = LXSqliteTool/Classes/LXSqliteTable.h; sourceTree = "<group>"; };
+		BD8CD32FC7FB4249D8791EE8A775BF9F /* LXSqliteTool.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LXSqliteTool.xcconfig; sourceTree = "<group>"; };
+		C4EF65BF260120F5B8180388F1F1293C /* Pods-LXSqliteTool_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXSqliteTool_Tests-resources.sh"; sourceTree = "<group>"; };
+		CAE18D8A60075DAF62B29071A9C9D313 /* LXSqliteTool.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = LXSqliteTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CEF5414B64356BA9170A2BB9B1674050 /* Pods-LXSqliteTool_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LXSqliteTool_Example-dummy.m"; sourceTree = "<group>"; };
+		D07D43B64AB1F3D68A2FB148D0B2296C /* Pods-LXSqliteTool_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LXSqliteTool_Tests.modulemap"; sourceTree = "<group>"; };
+		D1F16A1173AE704956775125CB2EE9FE /* Pods-LXSqliteTool_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LXSqliteTool_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D2008C276FD625010ACB1FFEF3F80B73 /* Pods_LXSqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LXSqliteTool_Example.framework; path = "Pods-LXSqliteTool_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0132F52AEBC65990217BEC01D8C2F22 /* LXSqliteTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LXSqliteTool.h; path = LXSqliteTool/Classes/LXSqliteTool.h; sourceTree = "<group>"; };
+		E2DC9FE3D93EE409E505CB858DA5E17A /* Pods-LXSqliteTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSqliteTool_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E58AECFA70A42F50B8319397ACC58C0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E6E5681E86DEE74230283840885C84FA /* LXSqliteTool-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LXSqliteTool-dummy.m"; sourceTree = "<group>"; };
+		E90363CC66FE1CE3D1D1263E1BAE9583 /* LXSqliteModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LXSqliteModel.m; path = LXSqliteTool/Classes/LXSqliteModel.m; sourceTree = "<group>"; };
+		EF5BE4E3EE36C469DA7B0F4C4952E4E5 /* Pods-LXSqliteTool_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LXSqliteTool_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F626F3D7EC02F6299064AD36132E8927 /* Pods-LXSqliteTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LXSqliteTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		FA960CEB25EE79AF0ADAC3CF15B04575 /* LXSqliteTool-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LXSqliteTool-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF2FBF419A64BA6693233E24B804FB33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39878124ED8AC8FA4FB23E0BABE75526 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF9FACBC705B8A7F2021BBA2EF899B8C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD9C707B660D9404A01509EF818C63D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBDBDB1015DDF34FB21A1358F4683E1F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8EE9CF5130CFC40047C622CDB838B2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D055F9D765DD129F9605003B1AFD4C2 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E58AECFA70A42F50B8319397ACC58C0B /* LICENSE */,
+				CAE18D8A60075DAF62B29071A9C9D313 /* LXSqliteTool.podspec */,
+				B48D429D772E7850C10FFF72C19E5101 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D6A0E6119612AEAD4CB0B568EEE2E69 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AA9174BCF2E50DE194170BBB2450BE0 /* Pods-LXSqliteTool_Example */,
+				CF85183AF9573676C26786A74E93B75E /* Pods-LXSqliteTool_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2642CE26B4A716D6E94AACF8A4340210 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9ABBBF6F82BB9018255D768032CF5A42 /* Info.plist */,
+				334C3A0F82FF2E557BA5F63B5F8E0C61 /* LXSqliteTool.modulemap */,
+				BD8CD32FC7FB4249D8791EE8A775BF9F /* LXSqliteTool.xcconfig */,
+				E6E5681E86DEE74230283840885C84FA /* LXSqliteTool-dummy.m */,
+				A90A9191EC5A476418DB83C68F181470 /* LXSqliteTool-prefix.pch */,
+				FA960CEB25EE79AF0ADAC3CF15B04575 /* LXSqliteTool-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LXSqliteTool";
+			sourceTree = "<group>";
+		};
+		4B50C9A3B21AC8D2DC03995074146C2A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE57A138335354A11078D49A8672EA8B /* LXSqliteTool */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7AA9174BCF2E50DE194170BBB2450BE0 /* Pods-LXSqliteTool_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B9CC21D65040ECFF04239DC9B38FE9F /* Info.plist */,
+				48B480A49243A1CB62D60F6AF42D5994 /* Pods-LXSqliteTool_Example.modulemap */,
+				A2F7F3D754FE0575313770273F98FFCD /* Pods-LXSqliteTool_Example-acknowledgements.markdown */,
+				2F5EB0E725D0B069E3E77FE13AA17E94 /* Pods-LXSqliteTool_Example-acknowledgements.plist */,
+				CEF5414B64356BA9170A2BB9B1674050 /* Pods-LXSqliteTool_Example-dummy.m */,
+				EF5BE4E3EE36C469DA7B0F4C4952E4E5 /* Pods-LXSqliteTool_Example-frameworks.sh */,
+				7D65CCB797EA1EC97C85549C05A657DF /* Pods-LXSqliteTool_Example-resources.sh */,
+				09313F30E76CBCC3EA78E293D45083CB /* Pods-LXSqliteTool_Example-umbrella.h */,
+				F626F3D7EC02F6299064AD36132E8927 /* Pods-LXSqliteTool_Example.debug.xcconfig */,
+				E2DC9FE3D93EE409E505CB858DA5E17A /* Pods-LXSqliteTool_Example.release.xcconfig */,
+			);
+			name = "Pods-LXSqliteTool_Example";
+			path = "Target Support Files/Pods-LXSqliteTool_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				4B50C9A3B21AC8D2DC03995074146C2A /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				83B3E166F136F83D6EBA8A55650F846D /* Products */,
+				1D6A0E6119612AEAD4CB0B568EEE2E69 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83B3E166F136F83D6EBA8A55650F846D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B5057979D0CA7C013A84B2F78978338 /* LXSqliteTool.framework */,
+				D2008C276FD625010ACB1FFEF3F80B73 /* Pods_LXSqliteTool_Example.framework */,
+				9AE77CA93D74DCE12009199D5593BAB2 /* Pods_LXSqliteTool_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF85183AF9573676C26786A74E93B75E /* Pods-LXSqliteTool_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				96E839A9C799B0EE63172D09E21EC39D /* Info.plist */,
+				D07D43B64AB1F3D68A2FB148D0B2296C /* Pods-LXSqliteTool_Tests.modulemap */,
+				D1F16A1173AE704956775125CB2EE9FE /* Pods-LXSqliteTool_Tests-acknowledgements.markdown */,
+				B72EFE9576DB61D53D8E4F2E4E9E1092 /* Pods-LXSqliteTool_Tests-acknowledgements.plist */,
+				B8059D94D4163BC559D0810EFA00C6E5 /* Pods-LXSqliteTool_Tests-dummy.m */,
+				A830B7CDB1D7B431ACB22C86162E1FD2 /* Pods-LXSqliteTool_Tests-frameworks.sh */,
+				C4EF65BF260120F5B8180388F1F1293C /* Pods-LXSqliteTool_Tests-resources.sh */,
+				49BE68B06BF8C7EDFD207D5CF43AC7E4 /* Pods-LXSqliteTool_Tests-umbrella.h */,
+				6029BC3797C283C6BDA3C0C3729A6E69 /* Pods-LXSqliteTool_Tests.debug.xcconfig */,
+				0404419941A0956CED4ED9B9FD1BC6EF /* Pods-LXSqliteTool_Tests.release.xcconfig */,
+			);
+			name = "Pods-LXSqliteTool_Tests";
+			path = "Target Support Files/Pods-LXSqliteTool_Tests";
+			sourceTree = "<group>";
+		};
+		DE57A138335354A11078D49A8672EA8B /* LXSqliteTool */ = {
+			isa = PBXGroup;
+			children = (
+				2E6AD11108573EDB3B78CD6ED2EB1068 /* LXSqliteModel.h */,
+				E90363CC66FE1CE3D1D1263E1BAE9583 /* LXSqliteModel.m */,
+				AE376F67346421901C13025A100C5825 /* LXSqliteModelProtocol.h */,
+				4C34308EC27608F5E2CA54D9B15A6013 /* LXSqliteModelTool.h */,
+				77AE995EDAF3FC37CE48D262E83F81F1 /* LXSqliteModelTool.m */,
+				B85436505B558496C3CC682FA0B21294 /* LXSqliteTable.h */,
+				2B9596B8DCC24FB4A3B978D4235A8C9D /* LXSqliteTable.m */,
+				E0132F52AEBC65990217BEC01D8C2F22 /* LXSqliteTool.h */,
+				6C4AF97C5520B9E6748387B993E9FBA4 /* LXSqliteTool.m */,
+				0D055F9D765DD129F9605003B1AFD4C2 /* Pod */,
+				2642CE26B4A716D6E94AACF8A4340210 /* Support Files */,
+			);
+			name = LXSqliteTool;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2ACD832CB015F77545771D6BBC1CA032 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACEB5A12D62498011E624C960F8AD5B7 /* Pods-LXSqliteTool_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8639C96E8307B5DBB435CFCB396813A7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5524A50924C8E57D08D3C000A20F43A2 /* LXSqliteModel.h in Headers */,
+				FBC3C823E7E864B0BF46E21F506A28CF /* LXSqliteModelProtocol.h in Headers */,
+				D78C4FA012F959E96053BA5C253B5A47 /* LXSqliteModelTool.h in Headers */,
+				D2D6F637E4B31313E4703475E62342FC /* LXSqliteTable.h in Headers */,
+				8488ED847FADD57D6128642DBFAA20BE /* LXSqliteTool-umbrella.h in Headers */,
+				9ED865924C9B64DAFDD50A5102B724D8 /* LXSqliteTool.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1A64E86337D13A9212AD985750185C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C82926C344EA772100AA397DB8737315 /* Pods-LXSqliteTool_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		785019C1631E3B560F2C50FCED797FEA /* LXSqliteTool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3FF80875022408B26AF70B31479BA607 /* Build configuration list for PBXNativeTarget "LXSqliteTool" */;
+			buildPhases = (
+				FB76F2FD61CFAA88A3D1766961A0F6F4 /* Sources */,
+				AF2FBF419A64BA6693233E24B804FB33 /* Frameworks */,
+				8639C96E8307B5DBB435CFCB396813A7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LXSqliteTool;
+			productName = LXSqliteTool;
+			productReference = 1B5057979D0CA7C013A84B2F78978338 /* LXSqliteTool.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8730B205DBB33B6780D0FC8EC8382F38 /* Pods-LXSqliteTool_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 236B9AA7506AC8058DBE85217617415D /* Build configuration list for PBXNativeTarget "Pods-LXSqliteTool_Tests" */;
+			buildPhases = (
+				E957186E42C9620181B8F00380A2FD55 /* Sources */,
+				EBDBDB1015DDF34FB21A1358F4683E1F /* Frameworks */,
+				BA1A64E86337D13A9212AD985750185C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46795E48864D1308AF0DFFE3F4048320 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXSqliteTool_Tests";
+			productName = "Pods-LXSqliteTool_Tests";
+			productReference = 9AE77CA93D74DCE12009199D5593BAB2 /* Pods_LXSqliteTool_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D19C65CE64315F78E0D9225AFDA8548B /* Pods-LXSqliteTool_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52752784FEB4862A8D81C24207DADF01 /* Build configuration list for PBXNativeTarget "Pods-LXSqliteTool_Example" */;
+			buildPhases = (
+				E6F73284A1773C9C68F6BA449604293A /* Sources */,
+				AF9FACBC705B8A7F2021BBA2EF899B8C /* Frameworks */,
+				2ACD832CB015F77545771D6BBC1CA032 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2137358F876937E6FB4651DD91D76CB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-LXSqliteTool_Example";
+			productName = "Pods-LXSqliteTool_Example";
+			productReference = D2008C276FD625010ACB1FFEF3F80B73 /* Pods_LXSqliteTool_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 83B3E166F136F83D6EBA8A55650F846D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				785019C1631E3B560F2C50FCED797FEA /* LXSqliteTool */,
+				D19C65CE64315F78E0D9225AFDA8548B /* Pods-LXSqliteTool_Example */,
+				8730B205DBB33B6780D0FC8EC8382F38 /* Pods-LXSqliteTool_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E6F73284A1773C9C68F6BA449604293A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C70F90261233262F3D7E95A88B6FB08E /* Pods-LXSqliteTool_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E957186E42C9620181B8F00380A2FD55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A170A3901E3D6F1043F8472169E8632B /* Pods-LXSqliteTool_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB76F2FD61CFAA88A3D1766961A0F6F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B66BD35E99E58C3CE7684295CECF4E57 /* LXSqliteModel.m in Sources */,
+				D3514625E66A4AD40AB638A72CE783BC /* LXSqliteModelTool.m in Sources */,
+				5980FD2DB0267545016EBDD38772BBF8 /* LXSqliteTable.m in Sources */,
+				D1750B1A322BCB71CB7BF1D9F105479A /* LXSqliteTool-dummy.m in Sources */,
+				17AADCE5B7F144347EBF17A051B5B73E /* LXSqliteTool.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2137358F876937E6FB4651DD91D76CB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LXSqliteTool;
+			target = 785019C1631E3B560F2C50FCED797FEA /* LXSqliteTool */;
+			targetProxy = CBFD9EC2FCA64AF52B5BA40EA55E343F /* PBXContainerItemProxy */;
+		};
+		46795E48864D1308AF0DFFE3F4048320 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LXSqliteTool_Example";
+			target = D19C65CE64315F78E0D9225AFDA8548B /* Pods-LXSqliteTool_Example */;
+			targetProxy = 1E6F30E14CC31D3E8FC2DC249B4FA816 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0F2D15B47FE3CE4DC36E094FA097F81D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0404419941A0956CED4ED9B9FD1BC6EF /* Pods-LXSqliteTool_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSqliteTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSqliteTool_Tests/Pods-LXSqliteTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1EE19F5DD95931924296F637BF18BD8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2057EF6EAED043D4DA3D8638A73C175B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F626F3D7EC02F6299064AD36132E8927 /* Pods-LXSqliteTool_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSqliteTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSqliteTool_Example/Pods-LXSqliteTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2416B8A7003E8DB6C392864ED4ADDC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8CD32FC7FB4249D8791EE8A775BF9F /* LXSqliteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXSqliteTool/LXSqliteTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXSqliteTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXSqliteTool/LXSqliteTool.modulemap";
+				PRODUCT_MODULE_NAME = LXSqliteTool;
+				PRODUCT_NAME = LXSqliteTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B2EE7355D8483F604C8C240EB7C9DC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD8CD32FC7FB4249D8791EE8A775BF9F /* LXSqliteTool.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/LXSqliteTool/LXSqliteTool-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LXSqliteTool/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LXSqliteTool/LXSqliteTool.modulemap";
+				PRODUCT_MODULE_NAME = LXSqliteTool;
+				PRODUCT_NAME = LXSqliteTool;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7517D47ED7B59F9E8F8430566C873A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6029BC3797C283C6BDA3C0C3729A6E69 /* Pods-LXSqliteTool_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSqliteTool_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSqliteTool_Tests/Pods-LXSqliteTool_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D33C079CDC36C76CD365D100C16082BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2DC9FE3D93EE409E505CB858DA5E17A /* Pods-LXSqliteTool_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LXSqliteTool_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LXSqliteTool_Example/Pods-LXSqliteTool_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F4568DEE257655D290C2B9CEAB37C934 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		236B9AA7506AC8058DBE85217617415D /* Build configuration list for PBXNativeTarget "Pods-LXSqliteTool_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7517D47ED7B59F9E8F8430566C873A8 /* Debug */,
+				0F2D15B47FE3CE4DC36E094FA097F81D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1EE19F5DD95931924296F637BF18BD8F /* Debug */,
+				F4568DEE257655D290C2B9CEAB37C934 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3FF80875022408B26AF70B31479BA607 /* Build configuration list for PBXNativeTarget "LXSqliteTool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2416B8A7003E8DB6C392864ED4ADDC30 /* Debug */,
+				B2EE7355D8483F604C8C240EB7C9DC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52752784FEB4862A8D81C24207DADF01 /* Build configuration list for PBXNativeTarget "Pods-LXSqliteTool_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2057EF6EAED043D4DA3D8638A73C175B /* Debug */,
+				D33C079CDC36C76CD365D100C16082BB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3AA165B90FB762922CCDF745 /* LXSqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LXSqliteTool.podspec; path = ../LXSqliteTool.podspec; sourceTree = "<group>"; };
-		40BD9BE4E9A40CC245FA5526 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3AA165B90FB762922CCDF745 /* LXSqliteTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LXSqliteTool.podspec; path = ../LXSqliteTool.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		40BD9BE4E9A40CC245FA5526 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LXSqliteTool_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LXSqliteTool_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -63,7 +63,7 @@
 		72C06DDD76F7422ECED32556 /* Pods_LXSqliteTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXSqliteTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8FA9B4EDDCC635358BDD186E /* Pods_LXSqliteTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXSqliteTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C0564151B7FB0C0398FFB850 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0564151B7FB0C0398FFB850 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C572AEB8E9681E97A446F065 /* Pods-LXSqliteTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSqliteTool_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXSqliteTool_Example/Pods-LXSqliteTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E55020BEABEBDB4CA249534F /* Pods-LXSqliteTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSqliteTool_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXSqliteTool_Example/Pods-LXSqliteTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F3F337B3F169C1CBA96E59F0 /* Pods-LXSqliteTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXSqliteTool_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LXSqliteTool_Tests/Pods-LXSqliteTool_Tests.release.xcconfig"; sourceTree = "<group>"; };

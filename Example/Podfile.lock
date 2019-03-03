@@ -1,0 +1,16 @@
+PODS:
+  - LXSqliteTool (0.0.1)
+
+DEPENDENCIES:
+  - LXSqliteTool (from `../`)
+
+EXTERNAL SOURCES:
+  LXSqliteTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LXSqliteTool: da928001138b08f3ff06442426786221301d5edd
+
+PODFILE CHECKSUM: eaa1504edf3fc66978c46aadb1b5ff58ebc41f3b
+
+COCOAPODS: 1.5.2
